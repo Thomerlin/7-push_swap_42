@@ -6,7 +6,7 @@
 /*   By: tyago-ri <tyago-ri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 16:10:22 by tyago-ri          #+#    #+#             */
-/*   Updated: 2022/01/28 11:30:40 by tyago-ri         ###   ########.fr       */
+/*   Updated: 2022/01/31 15:25:53 by tyago-ri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ static int	ft_check_sort(int argc, char **argv)
 	int	i;
 
 	i = 1;
-	while (i < argc -1)
+	while (i < argc - 1)
 	{
 		if (ft_atoi(argv[i + 1]) < ft_atoi(argv[i]))
 			return (1);

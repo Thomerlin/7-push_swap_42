@@ -6,7 +6,7 @@
 /*   By: tyago-ri <tyago-ri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/28 10:23:06 by tyago-ri          #+#    #+#             */
-/*   Updated: 2022/01/28 11:33:42 by tyago-ri         ###   ########.fr       */
+/*   Updated: 2022/01/31 15:38:50 by tyago-ri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static int	ft_groupsize(t_data *data, char stack_name)
 		data->group.med = (data->group.max - data->group.min) / 2 \
 			+ data->group.min;
 	else
-		data->group.med = (data->group.max - data->group.min) / 2 * 3 \
+		data->group.med = (data->group.max - data->group.min) / 3 * 2 \
 			+ data->group.min;
 	return (size);
 }
